@@ -1,0 +1,39 @@
+.msg_box{
+    margin: 10px;
+    width: fit-content;
+    text-align: right;
+    padding: 3px 10%;
+}
+
+.msg_user{
+  margin-left: auto ;  
+  text-align: left !important;
+    
+}   
+.msg_userBox{
+    background-color: rgb(179, 180, 233) !important;
+    border-radius: 30px !important;
+    min-width: 80px !important;
+    text-align: center;
+}
+
+.msg_guestBox{
+    background-color:lightgray !important ;
+    border-radius: 30px !important;
+    min-width: 30px !important;
+    text-align: center;
+}
+
+.sendButton {
+    background-color: #282c34; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.25rem;
+    
+  }
+
