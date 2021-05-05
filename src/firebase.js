@@ -3,14 +3,14 @@
 import firebase from "firebase";
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyBBbvto3scfcbO6x0KY5YBEfahJWIbk1BA",
-    authDomain: "messenger-by-lau.firebaseapp.com",
-    projectId: "messenger-by-lau",
-    storageBucket: "messenger-by-lau.appspot.com",
-    messagingSenderId: "795244528445",
-    appId: "1:795244528445:web:74b4ad0554200e5b65fb54",
-    measurementId: "G-5VKCFY6SZZ"
- });
+  apiKey: "YOUR_API_KEY",
+  AuthDomain: "YOUR_PROJECT_AUTH_DOMAIN",
+  databaseURL: "YOUR_PROJECT_DATABASE_URL",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_PROJECT_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_PROJECT_MESSAGING_SENDER_ID",
+  appId: "YOUR_PROJECT_APP_ID"
+});
 
  const db = firebaseApp.firestore();
  const provider = new firebase.auth.GoogleAuthProvider();
